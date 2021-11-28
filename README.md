@@ -1,5 +1,5 @@
 # Countdown
 
-This is a countdown which shows the time left to new year. (HTML / CSS/ JavaScript / EXPRESS / NODE.JS)
+This is a countdown which shows the time left to new year. (HTML / CSS/ JavaScript / Express / Node.Js)
 
-![GitHub Logo](/print.JPG)
+![Page](/print.JPG)
