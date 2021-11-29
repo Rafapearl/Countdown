@@ -4,4 +4,4 @@ This is a countdown which shows the time left to complete your tasks or to set u
 
 ![Page](/printHome.JPG)
 
-![Page2 (/printTask.JPG)
+![Page2] (/printTask.JPG)
