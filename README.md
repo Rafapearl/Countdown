@@ -1,5 +1,7 @@
 # Countdown
 
-This is a countdown which shows the time left to new year. (HTML / CSS/ JavaScript / Express / Node.Js). Challenge by Florin Pop.
+This is a countdown which shows the time left to complete your tasks or to set up as you want it. (HTML / CSS/ JavaScript / Express / Node.Js). Challenge by Florin Pop.
 
-![Page](/print.JPG)
+![Page](/printHome.JPG)
+
+![Page2 (/printTask.JPG)
