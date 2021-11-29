@@ -17,6 +17,9 @@ body {
 
 }
 
+
+
+
 h1 {
     font-size:4rem;
     margin-top: -10rem;
@@ -28,8 +31,8 @@ h1 {
 .countdown-container{
     display: flex;
     
-
 }
+
 
 .big-text{
     font-size:6rem;
@@ -47,4 +50,65 @@ h1 {
 .countdown-el span {
     font-size: 1.3rem;
 
+}
+
+.questions{
+    position: absolute;
+    justify-content: center center;
+    background-color: rgba(251, 255, 255, 0.431);
+    align-items: center center;
+    display: flex;
+    margin-left: 12rem;
+    margin-top: 10rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.subtitle {
+    margin: 0rem;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+    color: #797878;
+
+}
+
+.q1, .q2 {
+    border:none; border-bottom: black 2px solid;
+    font-size: 1rem;
+
+}
+
+.q1 {
+    width: 100%;height: auto;
+}
+
+.bt1{
+appearance: none;
+background-color: #FFFFFF; 
+border-radius:40em;
+border-style: none;
+box-shadow: #ADCFFF 0 -12px 6px inset;
+cursor: pointer;
+display: inline-block;
+font-family: -apple-system, sans-serif;
+font-size:1rem;
+font-weight: 600;
+letter-spacing: -.24px;
+margin: 0.5rem;
+outline: none;
+padding: 0.2rem 1rem;
+transition: all.15s;
+quotes: auto;
+text-decoration: none;
+touch-action: manipulation;
+}
+
+.bt1:hover{
+    background-color: #3ca6fda6;
+    transform: scale(1.02);
+}
+
+.bt1:active{
+    transform: scale(1.03)
 }

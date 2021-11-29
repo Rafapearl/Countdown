@@ -9,12 +9,11 @@
     <script src="js/scripts.js" defer></script>
 </head>
 <body>
-    <h2>New Year Eve</h2>
+    <h2 value class="Title" id="Title" name="Title">New Year Eve</h2>
     <div class="countdown-container">
         <div class="countdown-el days-c">
             <p class="big-text" id="days"></p>
             <span>days</span>
-            <button class= "btnPlus" id="btnPlus"> + 1 </button>
         </div>
         <div class="countdown-el hours-c">
             <p class="big-text" id="hours"></p>
@@ -28,12 +27,25 @@
             <p class="big-text" id="seconds"></p>
             <span>seconds</span>
         </div>
+        
+        
+    <div class="questions">
         <form action="">
-        <input type= "date" id="name" name="name" placeholder="Digite uma data">
-        <input type= "submit" value="Enviar" id=Send>
+            <div class="Question1">
+            <h3 class="subtitle">Name your target:</h3>
+         <input class = "q1" type= "text" id="text" name="text" placeholder="Ex: Birthday, Dreams come true...">
+    </div>
+    <div class="Question2">
+        <h3 class="subtitle">Set a date:</h3>
+        <input class="q2" type= "date" id="name" name="name" placeholder="Choose a date">
+        <input type= "submit" value="Apply Now" id=Send class="bt1">
+    </div>
+    </div>
+    </div>
 
 
         </form>
     </div>
+
 </body>
 </html>
